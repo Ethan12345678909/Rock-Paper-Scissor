@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient( dodgerblue,mediumorchid);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.items {
+    background-color: skyblue;
+    border-radius: 0.5rem;
+    padding: 15px;
+}
+
+.info {
+    background-color: lightcyan;
+    border-radius: 0.5rem;
+}
+.infocol {
+    border: 2px lightslategray dashed;
+}
+.compcolor {
+    color: purple;
+}
