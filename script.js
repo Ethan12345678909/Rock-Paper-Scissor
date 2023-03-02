@@ -20,6 +20,7 @@ function getComputerChoice() {
             break;
     }
 }
+<--Prompts for winner-->
 function determineWinner(userChoice, computerChoice) {
     if (userChoice === computerChoice) {
         return "The game is a tie!";
@@ -61,7 +62,7 @@ function computerScore(userChoice, computerChoice) {
     } 
     return computer;
 }
-
+<--Actual HTML linking begins here-->
 const playGame = (userInput) => {
     const userChoice = getUserChoice(userInput);
     const computerChoice = getComputerChoice();
