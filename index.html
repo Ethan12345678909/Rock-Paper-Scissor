@@ -37,21 +37,23 @@
             <div class=" text-center row mx-auto my-5">
                 <div class="col-md-2 infocol">
                     <h2 class="compcolor">Game Info:</h2>
+                    <br>
+                    <div class="p-1"><a class="btn btn-outline btn-lg" href="#info" role="button" onclick="location.reload();">Reset</a></div>
                 </div>
                 <div class="col-md-2 infocol">
-                    <h3 class="compcolor">You Threw:<span id="playerThrew"></span></h3>
+                    <h3 class="compcolor">You Threw:<br><span id="playerThrew"></span></h3>
                 </div>
                 <div class="col-md-2 infocol">
-                    <h3 class="compcolor">Computer Threw:<span id="computerThrew"></span></h3>
+                    <h3 class="compcolor">Computer Threw:<br><span id="computerThrew"></span></h3>
                 </div>
                 <div class="col-md-2 infocol">
-                    <h3 class="compcolor">Winner:<span id="winner"></span></h3>
+                    <h3 class="compcolor">Winner:<br><span id="winner"></span></h3>
                 </div>
                 <div class="col-md-2 infocol">
-                    <h3 class="compcolor">Your Wins:<span id="yourWins"></span></h3>
+                    <h3 class="compcolor">Your Wins:<br><span id="yourWins"></span></h3>
                 </div>
                 <div class="col-md-2 infocol">
-                    <h3 class="compcolor">Computer Wins:<span id="computerWins"></span></h3>
+                    <h3 class="compcolor">Computer Wins:<br><span id="computerWins"></span></h3>
                 </div>
             </div>
             <!-- Player Row -->
@@ -59,11 +61,11 @@
                 <div class="col-md-12">
                     <h2 class="text-center">Player:</h2>
                     <img src="images/rock.png" height="200px" width="200px" class="items"
-                        onclick="getUserChoice('rock')">
+                        onclick="playGame('rock')">
                     <img src="images/paper.png" height="200px" width="200px" class="items"
-                        onclick="getUserChoice('paper')">
+                        onclick="playGame('paper')">
                     <img src="images/scissor.png" height="200px" width="200px" class="items"
-                        onclick="getUserChoice('scissors')">
+                        onclick="playGame('scissors')">
                 </div>
             </div>
         </div>
